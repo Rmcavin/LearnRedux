@@ -13,7 +13,7 @@ class Single extends React.Component {
     return (
       <div className="single-photo">
         <Photo i={i} post={post} {...this.props} />
-        <Comments />
+        <Comments postComments={postComments} {...this.props}/>
       </div>
     )
   }

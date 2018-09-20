@@ -1,6 +1,5 @@
 // increment likes
 export function increment(index) {
-  console.log('increment like')
   return {
     type: 'INCREMENT_LIKES',
     index

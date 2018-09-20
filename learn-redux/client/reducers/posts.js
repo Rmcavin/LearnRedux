@@ -3,7 +3,6 @@
   // the current state
 
 function posts(state=[], action) {
-  console.log('in reducer')
   switch(action.type) {
     case 'INCREMENT_LIKES':
       const i = action.index;
